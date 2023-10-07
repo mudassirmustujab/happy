@@ -1,0 +1,99 @@
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.font-900 {
+    font-weight: 2rem !important;
+}
+
+.font-size-2rem {
+    font-size: 1.8rem !important;
+}
+
+.font-size-1rem {
+    font-size: 1rem !important;
+}
+
+.width-9rem {
+    width: 9.3rem !important;
+}
+
+.bg-gainsboro {
+    background-color: gainsboro;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fw-2{
+    font-size: 1.7rem;
+}
+
+/* Section 1 Starts here */
+
+.sec1{
+    height: auto;
+    background-color: #1ABC9C;
+}
+
+nav{
+    height: 20vh;
+    font-size: 1.2rem;
+    background-color: #2C3E50!important;
+}
+
+nav .navbar-brand{
+    font-size: 2.5rem;
+}
+
+.sec1 .container .row h1{
+    font-size: 4.3rem;
+}
+
+.sec1 .container .row p{
+    font-size: 1.4rem;
+}
+
+/* Section 3 Starts Here */
+
+.sec3{
+    background-color: #1ABC9C;
+}
+
+.sec3 p{
+    font-size: 1.4rem;
+}
+
+.sec4 #sub{
+    background-color: #1ABC9C;
+    width: 5rem;
+}
+
+.sec5{
+    height: auto!important;
+    background-color:#2C3E50;
+    padding: 22vh 0vh;
+    padding-bottom: 2rem;
+}
+
+.sec5 .card-body{
+    border-bottom: 0.25rem solid #64a19d!important;
+    
+}
+
+footer{
+    height: 20vh;
+}
+
+@media screen and (min-width:0px) and (max-width:400px) {
+
+    .sec1 .container .row h1{
+        font-size: 3rem;
+    }
+}
